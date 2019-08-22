@@ -16,6 +16,7 @@ const configs = [
   require('./webpack.config.assets'),
   require('./webpack.config.manifest'),
   require('./webpack.config.progress'),
+  require('./webpack.config.duplicates'),
   addAnalyzer ? require('./webpack.config.analyzer') : null,
   require('./webpack.config.services'),
   require(`./webpack.target.${target}`)
